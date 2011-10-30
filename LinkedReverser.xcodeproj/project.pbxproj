@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F468E18A145D4BD70053F1A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F468E189145D4BD70053F1A2 /* Foundation.framework */; };
+		F468E18D145D4BD70053F1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F468E18C145D4BD70053F1A2 /* main.m */; };
+		F468E191145D4BD70053F1A2 /* LinkedReverser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F468E190145D4BD70053F1A2 /* LinkedReverser.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F468E183145D4BD70053F1A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F468E191145D4BD70053F1A2 /* LinkedReverser.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F468E185145D4BD70053F1A2 /* LinkedReverser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedReverser; sourceTree = BUILT_PRODUCTS_DIR; };
+		F468E189145D4BD70053F1A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F468E18C145D4BD70053F1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F468E18F145D4BD70053F1A2 /* LinkedReverser-Prefix.pch */ = {isa = PBXFileReference; path = "LinkedReverser-Prefix.pch"; sourceTree = "<group>"; };
+		F468E190145D4BD70053F1A2 /* LinkedReverser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LinkedReverser.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F468E182145D4BD70053F1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468E18A145D4BD70053F1A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F468E17A145D4BD60053F1A2 = {
+			isa = PBXGroup;
+			children = (
+				F468E18B145D4BD70053F1A2 /* LinkedReverser */,
+				F468E188145D4BD70053F1A2 /* Frameworks */,
+				F468E186145D4BD70053F1A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F468E186145D4BD70053F1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F468E185145D4BD70053F1A2 /* LinkedReverser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F468E188145D4BD70053F1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F468E189145D4BD70053F1A2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F468E18B145D4BD70053F1A2 /* LinkedReverser */ = {
+			isa = PBXGroup;
+			children = (
+				F468E18C145D4BD70053F1A2 /* main.m */,
+				F468E190145D4BD70053F1A2 /* LinkedReverser.1 */,
+				F468E18E145D4BD70053F1A2 /* Supporting Files */,
+			);
+			path = LinkedReverser;
+			sourceTree = "<group>";
+		};
+		F468E18E145D4BD70053F1A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F468E18F145D4BD70053F1A2 /* LinkedReverser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F468E184145D4BD70053F1A2 /* LinkedReverser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F468E194145D4BD70053F1A2 /* Build configuration list for PBXNativeTarget "LinkedReverser" */;
+			buildPhases = (
+				F468E181145D4BD70053F1A2 /* Sources */,
+				F468E182145D4BD70053F1A2 /* Frameworks */,
+				F468E183145D4BD70053F1A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedReverser;
+			productName = LinkedReverser;
+			productReference = F468E185145D4BD70053F1A2 /* LinkedReverser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F468E17C145D4BD60053F1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F468E17F145D4BD60053F1A2 /* Build configuration list for PBXProject "LinkedReverser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F468E17A145D4BD60053F1A2;
+			productRefGroup = F468E186145D4BD70053F1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F468E184145D4BD70053F1A2 /* LinkedReverser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F468E181145D4BD70053F1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F468E18D145D4BD70053F1A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F468E192145D4BD70053F1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F468E193145D4BD70053F1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F468E195145D4BD70053F1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedReverser/LinkedReverser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F468E196145D4BD70053F1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedReverser/LinkedReverser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F468E17F145D4BD60053F1A2 /* Build configuration list for PBXProject "LinkedReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468E192145D4BD70053F1A2 /* Debug */,
+				F468E193145D4BD70053F1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F468E194145D4BD70053F1A2 /* Build configuration list for PBXNativeTarget "LinkedReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F468E195145D4BD70053F1A2 /* Debug */,
+				F468E196145D4BD70053F1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F468E17C145D4BD60053F1A2 /* Project object */;
+}
