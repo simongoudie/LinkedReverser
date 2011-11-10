@@ -10,6 +10,7 @@
 		F468E18A145D4BD70053F1A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F468E189145D4BD70053F1A2 /* Foundation.framework */; };
 		F468E18D145D4BD70053F1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F468E18C145D4BD70053F1A2 /* main.m */; };
 		F468E191145D4BD70053F1A2 /* LinkedReverser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F468E190145D4BD70053F1A2 /* LinkedReverser.1 */; };
+		F473C96414629E0F0066FA48 /* oldmain.m in Sources */ = {isa = PBXBuildFile; fileRef = F473C96314629E0F0066FA48 /* oldmain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,9 @@
 		F468E185145D4BD70053F1A2 /* LinkedReverser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedReverser; sourceTree = BUILT_PRODUCTS_DIR; };
 		F468E189145D4BD70053F1A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F468E18C145D4BD70053F1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F468E18F145D4BD70053F1A2 /* LinkedReverser-Prefix.pch */ = {isa = PBXFileReference; path = "LinkedReverser-Prefix.pch"; sourceTree = "<group>"; };
+		F468E18F145D4BD70053F1A2 /* LinkedReverser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedReverser-Prefix.pch"; sourceTree = "<group>"; };
 		F468E190145D4BD70053F1A2 /* LinkedReverser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LinkedReverser.1; sourceTree = "<group>"; };
+		F473C96314629E0F0066FA48 /* oldmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oldmain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F468E18C145D4BD70053F1A2 /* main.m */,
+				F473C96314629E0F0066FA48 /* oldmain.m */,
 				F468E190145D4BD70053F1A2 /* LinkedReverser.1 */,
 				F468E18E145D4BD70053F1A2 /* Supporting Files */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F468E18D145D4BD70053F1A2 /* main.m in Sources */,
+				F473C96414629E0F0066FA48 /* oldmain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +233,7 @@
 				F468E196145D4BD70053F1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
